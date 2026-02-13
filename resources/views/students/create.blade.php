@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('students.component.layout')
 
 @section('content')
 <h1>Add Student</h1>

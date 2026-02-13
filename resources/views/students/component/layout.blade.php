@@ -56,11 +56,7 @@
     </style>
 </head>
 <body>
-    <nav>
-        <a href="{{ url('/') }}">Home</a>
-        <a href="{{ url('/students') }}">Students</a>
-        <a href="{{ url('/students/create') }}">Add Student</a>
-    </nav>
+    @include('students.component.card')
     <div class="container">
         @yield('content')
     </div>
